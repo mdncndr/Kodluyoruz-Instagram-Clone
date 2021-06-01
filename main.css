@@ -1,0 +1,149 @@
+body{
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+ }
+#navbar{
+top: 0;
+display: flex;
+width: 100%;
+height: 54px;
+border-bottom: #e7e7e7 solid 1px;
+background-color: #fff;
+-webkit-box-align: center;
+align-items: center;
+position: fixed;
+transition: height .2s ease-in-out;
+z-index: 2;
+}
+.navbar-brand img{
+    margin-left: 229px;
+    height: 29px;
+    width: 103px;
+}
+.navbar-links{
+display: flex;
+justify-content: start;
+margin-right: 223px;
+}
+.nav-link{
+padding: 10px; 
+}
+input[type=search] {
+margin-left:153px;
+margin-top: 25px;
+}
+.middle-area{
+width: 614px;
+max-height: 200px !important ;
+margin-left: 200px; 
+margin-top: 40px;    
+position: relative;
+}
+section .card{
+height: 125px; 
+width: 614px;
+margin-top: 73px;
+margin-bottom: 37px;
+align-items: center;
+border: #e7e7e7 solid 1px;
+}
+button{
+display: block;
+width: 68px;
+height: 118px;
+border: none;
+background-color: white;
+padding: 0 4px;
+}
+.user .user-name{
+    display: block;
+    font-size: 12px;
+    overflow: hidden;
+    max-width: 74px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+section .card .user img{
+    width: 56px;
+    height: 56px;
+    border: #ee2752 solid 2px;
+    border-radius: 50%;
+  }
+#post-cards{
+    width: 614px;
+    height: 375px;
+    margin-right: 28px;
+}
+#post-cards header{
+    margin:15px;
+}
+.user-card{
+    padding: 20px 0;
+    margin-bottom: 50px ;
+    border: 1px solid #e7e7e7;
+}
+.user-profil img{
+height: 32px;
+width: 32px;
+border: #e7e7e7 solid 1px;
+border-radius: 50%;
+margin-right: 10px;
+}
+.user-card .user-profil a{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+font-weight: bolder;
+color: black;
+font: inherit;
+}
+.post-body{
+    width: 100%;
+}
+.post-body .post-img{
+width: 612px;
+}
+.post-res a{
+    width: 50px;
+    height: 50px;
+}
+.post-body span img{
+width: 23px;
+height: 23px;
+border-radius: 50%
+}
+.card-text a{
+    color: black;
+    opacity: 0.8;
+}
+
+.post-body .card-footer{
+color: rgb(139, 133, 133);
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+      Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+      'Helvetica Neue', sans-serif;
+}
+.sticky-card{
+    background-color: #fff;
+    right: 210px;
+    max-width: 323px;
+    height: 100%;
+    top: 54px;
+      z-index: 1;
+    }
+.sticky-card  .card-body{
+margin-top: 30px; 
+ }
+.rightpanellinks {
+    text-decoration:none;
+    color: #c7c7c7;
+    margin:3px;
+  }
+  .rightpanellinks:hover {
+    text-decoration: none;
+    color: #c7c7c7;
+  }
+  
+ 

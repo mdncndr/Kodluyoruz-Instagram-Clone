@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="stylesheet" href="/main.css">
+    <title>Instagram</title>
+</head>
+
+<!--NAVBAR-->
+
+<body>
+    <nav id="navbar" class="navbar-expand-sm navbar-light ">
+        <div class="logo"> <a href="#" class="navbar-brand"><img src="/img/Instagram.png" alt=""></a></div>
+        <div class="container-fluid " style="margin-top: -23px;">
+            <form class="form-inline my-2 my-lg-0 ml-5 d-none d-lg-block">
+
+                <input class="form-control  " type="search" placeholder="Ara" aria-label="Search"
+                    style="font-family: Arial, FontAwesome; height: 28px; width: 216px; text-align: center; opacity: 0.7;">
+            </form>
+            <div class="icon   d-none d-lg-block" style="margin-left: 262px;margin-top: -25px; ">
+                <i class="fas fa-search fa-sm"></i>
+            </div>
+        </div>
+
+        <div class="collapse navbar-collapse d-none d-sm-block">
+            <div class="navbar-links style">
+                <a class="nav-link " aria-current="page" href="index.html"><i class="fas fa-home fa-lg"
+                        style="color: black;font-size: 22px;"></i></a>
+                <a class="nav-link" href="index.html"><i class="fab fa-facebook-messenger  fa-lg"
+                        style="color: black; font-size: 22px;"></i></a>
+                <a class="nav-link" href="https://www.instagram.com/explore/" tabindex="-1" aria-disabled="true"><i
+                        class="far fa-compass  fa-lg " style="color: black;font-size: 22px;"></i></a>
+                <a class="nav-link" href="index.html" tabindex="-1" aria-disabled="true"><i class="far fa-heart  fa-lg "
+                        style="color: black;font-size: 22px;"></i></a>
+                <a class="nav-link " href="index.html" tabindex="-1" aria-disabled="true"><img src="/img/profil.jpg"
+                        alt="" style="width: 22px; height: 22px; border-radius: 50%; margin-top: -5px;"></a>
+            </div>
+        </div>
+
+    </nav>
+
+    <!--MIDDLE AREA-HEADER (stories)-->
+
+    <section class="middle-area  mt-2 ">
+        <div class="row">
+            <div class="col-12  col-lg-6 ">
+                <div class="card ">
+                    <div class=" card-body stories d-flex">
+                        <ul class="d-flex" style="list-style: none; margin-top: -20px; margin-left: -30px;">
+                            <li>
+                                <button class="user">
+                                    <span><img src="/img/netflix.jpg" alt=""></span>
+                                    <div class="user-name">netflix</div>
+                                </button>
+                            </li>
+
+                            <li><button class="user">
+                                    <span><img src="/img/kodluyoruz.jpg" alt=""></span>
+                                    <div class="user-name">kodluyoruz</div>
+                                </button>
+                            </li>
+
+                            <li> <button class="user">
+                                    <span><img src="/img/natgeo.jpg" alt=""></span>
+                                    <div class="user-name">natgeo</div>
+                                </button></li>
+
+                            <li><button class="user">
+                                    <span><img src="/img/f1.png" alt=""></span>
+                                    <div class="user-name">f1</div>
+                                </button></li>
+                            <li><button class="user">
+                                    <span><img src="/img/kitapyurdu.jpg" alt=""></span>
+                                    <div class="user-name">kitapyurdu </div>
+                                </button></li>
+
+                            <li> <button class="user">
+                                    <span><img src="/img/friends.jpg" alt=""></span>
+                                    <div class="user-name">friends</div>
+                                </button></li>
+
+                            <li> <button class="user">
+                                    <span><img src="/img/nasa.png" alt=""></span>
+                                    <div class="user-name">nasa</div>
+                                </button></li>
+
+                            <li> <button class="user">
+                                    <span><img src="/img/marvel.jpg" alt=""></span>
+                                    <div class="user-name">marvel</div>
+                                </button></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <!--MIDDLE AREA (posts)-->
+
+                <div id="post-cards">
+                    <div class="user-card mt-2 ">
+                        <header class="user-profil d-flex">
+                            <a href="#"><img src="/img/netflix.jpg" alt="" style="margin-top: -12px;"></a>
+                            <a href="#"
+                                style="font-size: 14px;margin-top: -5px;font-weight: bolder;opacity: .8;">netflix</a>
+                            <a href="#"><img src="/img/dots.svg"
+                                    style="height: 23px; width: 23px; margin-left: 459px;border: none;" alt=""></a>
+                        </header>
+                        <div class="post-body">
+                            <img class="post-img" src="/img/netflix-post.jpg" alt="">
+
+                            <div class="post-res">
+                                <ul class="list-group list-group-horizontal mt-1"
+                                    style="list-style-type: none;  position: relative;">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><img src="/img/like.svg" alt=""
+                                                style="color: black; position: absolute;width: 28px; height: 28px;"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><img src="/img/comment.svg" alt=""
+                                                style="color: black; position: absolute; width: 26px; height: 26px;"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><img src="/img/send.svg" alt=""
+                                                style="color: black; position: absolute; width: 35px; height: 35px;"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link offset-6" href="#"><img src="/img/saved.svg" alt=""
+                                                style="color: black; position: absolute; width: 30px; height: 30px;margin-left: 400px;"></a>
+                                    </li>
+                                </ul>
+                                <span>
+                                    <a href="https://www.instagram.com/marvel/" style="color: black; opacity: 0.9;"><img
+                                            src="/img/marvel.jpg" class="mb-1 ml-3" />
+                                        <span class="postfont"><strong>marvel</strong></a>
+                                    ve
+                                    <strong>1.542.254 diğer kişi</strong> beğendi</span>
+                                </span>
+                                <div class="card-body" style="margin-top: -15px">
+                                    <p class="card-text">
+                                        <strong style="margin-left: -4px; margin-right: 5px"> <a
+                                                href="https://www.instagram.com/netflix/"> netflix</a></strong>Eleven,
+                                        are you listening?<a href="#"
+                                            style="color:teal; text-decoration: none;">@strangerthingstv </a>
+                                    </p>
+                                    <a href="#" style="text-decoration: none">
+                                        <p class="card-text " style="
+                                            margin-left: -4px;
+                                            margin-top: -14px;
+                                            color: rgb(139, 133, 133);
+                                        ">
+                                            478 yorumun tümünü gör
+                                        </p>
+                                    </a>
+                                    <p class="card-text ">
+                                        <strong style="margin-left: -4px; margin-right: 5px"><a
+                                                href="https://www.instagram.com/milliebobbybrown/">milliebobbybrown</a></strong>So
+                                        excited!!!😍
+                                    </p>
+                                    <p class="card-text " style="margin-top: -15px">
+                                        <strong style="margin-left: -4px; margin-right: 5px"><a
+                                                href="https://www.instagram.com/noahschnapp/">noahschnapp</a>
+                                        </strong>Can't waitt!!!🤩🤩
+                                    </p>
+                                    <p class="card-text" style="
+                                        margin-top: -10px;
+                                        margin-left: -4px;
+                                        font-size: 15px;
+                                        color: rgb(139, 133, 133);
+                                        ">
+                                        1 saat önce
+                                    </p>
+                                </div>
+                                <div class="card-footer bg-light">
+                                    <i class="far fa-smile"></i> <span
+                                        style="margin-left: 4px ;  font-size: 13px; ">Yorum
+                                        ekle...</span> <a href="#"> <span class=""
+                                            style="font-size:13px; color: #0095f6; opacity: 50%; margin-left: 520px; "><strong>Paylaş</strong></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+
+
+                    <div class="user-card mt-2">
+                        <header class="user-profil d-flex">
+                            <a href="#"><img src="/img/friends.jpg" alt="" style="margin-top: -5px"></a>
+                            <a href=" #"
+                                style="font-size: 14px;margin-top: -3px;font-weight: bolder;opacity: .8;">friends</a>
+                            <a href="#"><img src="/img/dots.svg"
+                                    style="height: 23px; width: 23px; margin-left: 459px;border: none;" alt=""></a>
+                        </header>
+                        <div class="post-body">
+                            <img class="post-img" src="/img/friends-post.jpg" alt="">
+
+                            <div class="post-res">
+                                <ul class="list-group list-group-horizontal mt-1" style="list-style-type: none;">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><img src="/img/like.svg" alt=""
+                                                style="color: black; position: relative; width: 30px; height: 30px;"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><img src="/img/comment.svg" alt=""
+                                                style="color: black; position: relative; width: 27px; height: 27px;"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><img src="/img/send.svg" alt=""
+                                                style="color: black; position: relative; width: 35px; height: 35px;"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link offset-6" href="#"><img src="/img/saved.svg" alt=""
+                                                style="color: black; position: relative; width: 30px; height: 30px;margin-left: 400px;"></a>
+                                    </li>
+                                </ul>
+                                <span>
+                                    <a href="https://www.instagram.com/mleblanc/" style="color: black; opacity: 0.9;">
+                                        <img src="/img/mattle.png" class="mb-1 ml-3" />
+                                        <span class="postfont"><strong> mleblanc</strong></a> ve
+                                    <strong>2.605.391 diğer kişi</strong> beğendi</span>
+                                </span>
+                                <div class="card-body" style="margin-top: -15px">
+                                    <p class="card-text">
+                                        <strong style="margin-left: -4px; margin-right: 5px"> <a
+                                                href="https://www.instagram.com/f1/">
+                                                friends</a></strong>The One Where We Get to See Our Favorites Back
+                                        Together Again. The
+                                        <a href="https://www.instagram.com/explore/tags/friendsreunion/"
+                                            style="text-decoration: none;color: #0095f6;">#FriendsReunion</a>
+                                        is coming on May 27 only on <a href="https://www.instagram.com/hbomax/"
+                                            style="text-decoration: none;color: #0095f6;">
+                                            @hbomax</a>
+
+                                        <a href="#" style="text-decoration: none">
+                                            <p class="card-text " style="
+                                                            margin-left: -4px;
+                                                            margin-top: -14px;
+                                                            color: rgb(139, 133, 133);
+                                                        ">
+                                                62.985 yorumun tümünü gör
+                                            </p>
+                                        </a>
+                                    <p class="card-text ">
+                                        <strong style="margin-left: -4px; margin-right: 5px"><a
+                                                href="https://www.instagram.com/mdncndr/">mdncndr</a></strong>😍😍😭😭😭
+                                    </p>
+                                    <p class="card-text " style="margin-top: -15px">
+                                        <strong style="margin-left: -4px; margin-right: 5px"><a
+                                                href="https://www.instagram.com/hbomaxpop/"> hbomaxpop </a>
+                                        </strong>
+                                        well i’m crying already
+                                    </p>
+                                    <p class="card-text" style="
+                                        margin-top: -10px;
+                                        margin-left: -4px;
+                                        font-size: 15px;
+                                        color: rgb(139, 133, 133);
+                                        ">
+                                        2 saat önce
+                                    </p>
+                                </div>
+                                <div class="card-footer bg-light">
+                                    <i class="far fa-smile"></i> <span
+                                        style="margin-left: 4px ;  font-size: 13px; ">Yorum
+                                        ekle...</span> <a href="#"> <span class=""
+                                            style="font-size:13px; color: #0095f6; opacity: 50%; margin-left: 520px; "><strong>Paylaş</strong></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="user-card mt-2">
+                        <header class="user-profil d-flex">
+                            <a href="#"><img src="/img/f1.png" alt="" style="margin-top: -5px"></a>
+                            <a href=" #"
+                                style="font-size: 14px;margin-top: -2px;font-weight: bolder;opacity: .8;">f1</a>
+                            <a href="#"><img src="/img/dots.svg"
+                                    style="height: 23px; width: 23px; margin-left: 485px;border: none;" alt=""></a>
+                        </header>
+                        <div class="post-body">
+                            <img class="post-img" src="/img/f1-post.jpg" alt="">
+
+                            <div class="post-res">
+                                <ul class="list-group list-group-horizontal mt-1" style="list-style-type: none;">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><img src="/img/like.svg" alt=""
+                                                style="color: black; position: relative; width: 30px; height: 30px;"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><img src="/img/comment.svg" alt=""
+                                                style="color: black; position: relative; width: 27px; height: 27px;"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><img src="/img/send.svg" alt=""
+                                                style="color: black; position: relative; width: 35px; height: 35px;"></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link offset-6" href="#"><img src="/img/saved.svg" alt=""
+                                                style="color: black; position: relative; width: 30px; height: 30px;margin-left: 400px;"></a>
+                                    </li>
+                                </ul>
+                                <span>
+                                    <a href="https://www.instagram.com/lewishamilton/"
+                                        style="color: black; opacity: 0.9;"> <img src="/img/hamilton.jpg"
+                                            class="mb-1 ml-3" />
+                                        <span class="postfont"><strong> lewishamilton</strong> </a> ve
+                                    <strong>1.542.254 diğer kişi</strong> beğendi</span>
+                                </span>
+                                <div class="card-body" style="margin-top: -15px">
+                                    <p class="card-text">
+                                        <strong style="margin-left: -4px; margin-right: 5px"> <a
+                                                href="https://www.instagram.com/f1/">
+                                                f1</a></strong>The inside story of a strategic masterclass
+                                        at 2021 Spanish Grand Prix in full- on track, in the pit lane
+                                        and at Mercedes' Operations Centre back in Brackley, UK. A true
+                                        team effort!
+
+                                        <a href="#" style="text-decoration: none">
+                                            <p class="card-text " style="
+                                                            margin-left: -4px;
+                                                            margin-top: -14px;
+                                                            color: rgb(139, 133, 133);
+                                                        ">
+                                                985 yorumun tümünü gör
+                                            </p>
+                                        </a>
+                                    <p class="card-text ">
+                                        <strong style="margin-left: -4px; margin-right: 5px"><a
+                                                href="https://www.instagram.com/mercedesamgf1/">mercedesamgf1</a></strong>That
+                                        👏
+                                    </p>
+                                    <p class="card-text " style="margin-top: -15px">
+                                        <strong style="margin-left: -4px; margin-right: 5px"><a
+                                                href="https://www.instagram.com/noahschnapp/">
+                                                hugoscheckter</a>
+                                        </strong>
+                                        Fascinating insight - really interesting!
+                                    </p>
+                                    <p class="card-text" style="
+                                        margin-top: -10px;
+                                        margin-left: -4px;
+                                        font-size: 13px;
+                                        color: rgb(139, 133, 133);
+                                        ">
+                                        4 saat önce
+                                    </p>
+                                </div>
+                                <div class="card-footer bg-light">
+                                    <i class="far fa-smile"></i> <span
+                                        style="margin-left: 4px ;  font-size: 13px; ">Yorum
+                                        ekle...</span> <a href="#"> <span class=""
+                                            style="font-size:13px; color: #0095f6; opacity: 50%; margin-left: 520px; "><strong>Paylaş</strong></span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+                    <!-- Side Card -->
+
+                    <div class="col-3">
+                        <div class="sticky-card  position-fixed d-none d-lg-block">
+                            <div class="card-body">
+                                <a href="#"><img src="/img/profil.jpg" alt=""
+                                        style="height: 56px; width: 56px; border-radius: 50%;"></a>
+                                <a href="#" class="ml-2" style="margin-top:-100px;font-size: 14px;">mdncndr</a>
+                                <div class=" name text-secondary "
+                                    style="margin-top:-25px;margin-left: 68px;font-size:14px;">Medine
+                                </div>
+                                <br>
+
+                                <div class="mt-2">
+                                    <span class="mt-5 fw-bolder"
+                                        style="
+                                          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 13px;color: gray;">Senin
+                                        İçin Öneriler</span>
+                                    <span class="postfont mt-1 "
+                                        style="font-size: 13px; margin-left:180px; opacity: 0.8;"><strong>Tümünü
+                                            Gör</strong></span>
+
+                                    <div class="mt-3 d-flex   justify-content-between">
+                                        <div class="suggest"> <span><a href="https://www.instagram.com/evrimagaci/"><img
+                                                        src="/img/evrimagaci.jpg"
+                                                        style="width: 30px; height: 30px; border-radius: 50%" /></a>
+                                            </span>
+                                            <a href="https://www.instagram.com/evrimagaci/"
+                                                style="color:black; font-weight:620; font-size: 14px; opacity: 0.9;">
+                                                <span class="postfont ml-2 mt-1">evrimağacı</span>
+                                        </div>
+                                        <div class="follow"> <span class="postfont"
+                                                style="font-size: 13px; color: #0095f6; margin-top: 5px"></span>
+                                            </a>
+                                            <a href="#" style="text-decoration: none;opacity:0.8;"><strong>Takip
+                                                    Et</strong></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-3 d-flex  justify-content-between">
+                                        <div class="suggest"> <span> <a href="https://www.instagram.com/9gag/"><img
+                                                        src="/img/9gag.png"
+                                                        style="width: 30px; height: 30px; border-radius: 50%" /></a>
+                                            </span>
+                                            <a href="https://www.instagram.com/9gag/"
+                                                style="color:black; font-weight:520;font-size: 14px; opacity: 0.9">
+                                                <span class=" postfont ml-2 mt-1">
+                                                    9gag</span>
+                                        </div>
+                                        <div class="follow"> <span class="postfont"
+                                                style="font-size: 13px; color: #0095f6; margin-top: 5px"></span>
+                                            </a>
+                                            <a href="#" style="text-decoration: none;opacity:0.8;"><strong>Takip
+                                                    Et</strong></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-3 d-flex justify-content-between">
+                                        <div class="suggest"> <span><a
+                                                    href="https://www.instagram.com/dean.schneider/"><img
+                                                        src="/img/dean.jpg"
+                                                        style="width: 30px; height: 30px; border-radius: 50%" /></a>
+                                            </span>
+                                            <a href="https://www.instagram.com/dean.schneider/"
+                                                style="color:black; font-weight:620;font-size: 14px; opacity: 0.9;">
+                                                <span class="postfont ml-2 mt-1">dean.schneider</span>
+                                        </div>
+                                        <div class="follow"> <span class="postfont"
+                                                style="font-size: 13px; color: #0095f6; margin-top: 5px"></span>
+                                            </a>
+                                            <a href="#" style="text-decoration: none;opacity:0.8;"><strong>Takip
+                                                    Et</strong></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-3 d-flex justify-content-between">
+                                        <div class="suggest"> <span> <a
+                                                    href="https://www.instagram.com/uykusuzdergisi/"><img
+                                                        src="/img/uykusuz.jpg"
+                                                        style="width: 30px; height: 30px; border-radius: 50%" /></a>
+                                            </span>
+                                            <a href="https://www.instagram.com/uykusuzdergisi/"
+                                                style="color:black; font-weight:620;font-size: 14px; opacity: 0.9;">
+                                                <span class="postfont ml-2 mt-1">uykusuzdergisi
+                                                </span>
+                                        </div>
+                                        <div class="follow"> <span class="postfont"
+                                                style="font-size: 13px; color: #0095f6; margin-top: 5px"></span>
+                                            </a>
+                                            <a href="#" style="text-decoration: none ;opacity:0.8;"><strong>Takip
+                                                    Et</strong></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-3 d-flex justify-content-between">
+                                        <div class="suggest"> <span> <a href="https://www.instagram.com/beyonce/"><img
+                                                        src="/img/beyonce.jpg"
+                                                        style="width: 30px; height: 30px; border-radius: 50%" /></a>
+                                            </span>
+                                            <a href="https://www.instagram.com/beyonce/"
+                                                style="color:black; font-weight:620; font-size: 14px; opacity: 0.9;">
+                                                <span class="postfont ml-2 mt-1">beyonce
+                                                </span>
+                                        </div>
+                                        <div class="follow"> <span class="postfont"
+                                                style="font-size: 3px; color: #0095f6; margin-top: 5px"></span>
+                                            </a>
+                                            <a href="#" style="text-decoration: none;opacity:0.8;"><strong>Takip
+                                                    Et</strong></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ml-3 mt-3"
+                                style="color: #c7c7c7; font-size: 11px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                <span><a href="https://about.instagram.com/" class="rightpanellinks">Hakkında</a> <a
+                                        href="https://help.instagram.com/" class="rightpanellinks">Yardım</a> <a
+                                        href="https://about.instagram.com/blog/" class="rightpanellinks">Basın</a>
+                                    <a href="https://www.instagram.com/developer/" class="rightpanellinks">API</a>
+                                    <a href="https://www.instagram.com/about/jobs/" class="rightpanellinks">İş
+                                        Fırsatları</a> <a href="https://www.instagram.com/legal/privacy/"
+                                        class="rightpanellinks">Gizlilik</a></span>
+                                <span><a href="https://www.instagram.com/legal/terms/"
+                                        class="rightpanellinks">Koşullar</a>
+                                    <a href="https://www.instagram.com/explore/locations/"
+                                        class="rightpanellinks">Konumlar</a>
+                                    <a href="https://www.instagram.com/directory/profiles/"
+                                        class="rightpanellinks">Başlıca
+                                        Hesaplar</a> <a href="https://www.instagram.com/directory/hashtags/"
+                                        class="rightpanellinks">Konu Etiketleri</a> Dil</span>
+                                <p></p>
+                                <p style="font-size: 12px; color: #c7c7c7">© 2021 INSTAGRAM FROM KODLUYORUZ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+</body>
+
+</html>
